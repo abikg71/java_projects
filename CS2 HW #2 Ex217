@@ -1,0 +1,40 @@
+//HOME WORK PROBLEMS FROM TEXTBOOK
+// The following code is writteN to check the given instruction on the Algs4ed
+//Chapter 2, Ex 2., Pro#17
+// Abinet Kenore, MW 06:00 T0 07:50 CS 2050 Fall 2016,
+import java.io.*;
+i//HOME WORK PROBLEMS FROM TEXTBOOK
+// The following code is writteN to check the given instruction on the Algs4ed
+//Chapter 2, Ex 2.1, Pro#17
+// Abinet Kenore, MW 06:00 T0 07:50 CS 2050 Fall 2016,mport java.util.*;
+public class CS2FileLinkList
+{
+public static void main(String args[]) throws IOException{
+String content = new String();
+int count=1;
+File file = new File("CS2.DAT"); // file name 
+LinkedList<String> list = new LinkedList<String>();
+
+ try {
+Scanner sc = new Scanner(new FileInputStream(file));
+while (sc.hasNextLine()){
+content = sc.nextLine();
+list.add(content);
+}
+sc.close();
+}catch(FileNotFoundException fnf){
+fnf.printStackTrace();
+}
+catch (Exception e) {
+e.printStackTrace();
+System.out.println("\nProgram terminated Safely...");
+ }
+
+Collections.reverse(list);
+Iterator i = list.iterator();
+while (i.hasNext()) {
+System.out.print("Node " + (count++) + " : ");
+System.out.println(i.next());
+      }
+    }
+}
