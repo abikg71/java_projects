@@ -6,7 +6,7 @@ prompt the use to Enter n number in row and calculate
 
 */
 import java.util.Scanner;
-public class Mean_sdeviation
+public class HelpMean_sdeviation
 {
   public static void main(String[] args)
   {
