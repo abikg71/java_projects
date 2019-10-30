@@ -32,3 +32,8 @@ To Check your answer use -40 for both:)
         Enter the fahrenheit
         -40
         Temperature in Celsius is: -40.0
+
+
+Q2. Find the first 50 PrimeNumbers
+Q3.
+Q4. 
