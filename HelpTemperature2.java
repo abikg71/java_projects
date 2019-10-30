@@ -1,8 +1,11 @@
 /*Conversion between F<->C
 October 29, 2019
 @ Abinet Kenore
+The challenge is taken from Introduction to Java programming 8ed by Y.Daniel Liang chapter 5, exerice 5.8 (p # 190)
 The purpose of this project is tell help my dear friends who are
  beginning java
+      How to create class, methods, and calling them in main
+      local vs global , dynamic, rounding number
  * on this part I added while loop which promts yes or no option either to continue or not.
  => Challenge
  c = 4.44
@@ -36,17 +39,17 @@ public class HelpTemperature2
                     "F -> C: ");
             choose = input.nextInt();
             switch (choose) {
-                case 1:
-                    System.out.println("Enter the celius");
-                    double celius = input.nextDouble();
-                    System.out.println(celsiusToFahrenheit(celius));
-                    break;
+              case 1:
+              System.out.println("Enter the Celsius");
+              double celsius= input.nextDouble();
+              System.out.println( "Temperature in Fahrenheit is: " + celsiusToFahrenheit(celsius));
+              break;
 
-                case 2:
-                    System.out.println("Enter the fahrenheit ");
-                    double fahrenheit = input.nextDouble();
-                    System.out.println(celsiusToFahrenheit(fahrenheit));
-                    break;
+              case 2:
+                  System.out.println("Enter the fahrenheit ");
+                  double fahrenheit = input.nextDouble();
+                  System.out.println("Temperature in Celsius is: " + celsiusToFahrenheit(fahrenheit));
+                  break;
 
                 default:
                     break;

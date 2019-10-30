@@ -2,6 +2,7 @@
 /*Conversion between F<->C
 October 29, 2019
 @ Abinet Kenore
+The challenge is taken from Introduction to Java programming 8ed by Y.Daniel Liang chapter 5, exerice 5.8 (p # 190)
 The purpose of this project is tell help my dear friends who are
  beginning java
 */
@@ -9,15 +10,15 @@ The purpose of this project is tell help my dear friends who are
 import java.util.Scanner;
 public class HelpTemperature
 {
-    public static double  celsiusToFahrenheit(double celius)
+    public static double  celsiusToFahrenheit(double celsius)
     {
-        double f = (9.0/5.0) * celius + 32;
+        double f = (1.8 * celsius) + 32; // 9/5
         return f;
     }
 
     public static double FahrenheitTocelsius(double fahrenheit)
     {
-        double c = (5.0/9.0) * (fahrenheit - 32);
+        double c =  (fahrenheit - 32) / 1.8;
         return  c;
     }
 
@@ -30,15 +31,15 @@ public class HelpTemperature
         switch (choose)
         {
             case 1:
-            System.out.println("Enter the celius");
-            double celius = input.nextDouble();
-            System.out.println( celsiusToFahrenheit(celius));
+            System.out.println("Enter the Celsius");
+            double celsius= input.nextDouble();
+            System.out.println( "Temperature in Fahrenheit is: " + celsiusToFahrenheit(celsius));
             break;
 
             case 2:
                 System.out.println("Enter the fahrenheit ");
                 double fahrenheit = input.nextDouble();
-                System.out.println(celsiusToFahrenheit(fahrenheit));
+                System.out.println("Temperature in Celsius is: " + celsiusToFahrenheit(fahrenheit));
                 break;
 
             default:

@@ -1,0 +1,34 @@
+October 29, 2019
+Abinet Kenore
+Java Exercise problems for EFY.
+
+Q1. Write a java program which calculates the conversion between degree Celsius and degree Fahrenheit, and vice versa.
+Objectives of this program
+•	How to create methods
+•	How to implement Switch statement
+•	The math behind the program
+Requirement
+Create two different methods:
+		public static double  celsiusToFahrenheit(double celius)
+		public static double FahrenheitTocelsius(double fahrenheit)
+
+Note: the relation between  degree Celsius and degree Fahrenheit
+F = 1.8 x C + 32
+C = (F - 32) ÷ 1.8
+
+Give a user to choose from what to what (Celsius to Fahrenheit or Fahrenheit or Fahrenheit) hint use switch statement.
+To Check your answer use -40 for both:)
+
+        Sample output
+        Please choose 1 for C -> F and 2 for F -> C:
+        1
+        Enter the Celsius
+        -40.0
+        Temperature in Fahrenheit is: -40.0
+
+        ➜  java java HelpTemperature
+        Please choose 1 for C -> F and 2 for F -> C:
+        2
+        Enter the fahrenheit
+        -40
+        Temperature in Celsius is: -40.0
