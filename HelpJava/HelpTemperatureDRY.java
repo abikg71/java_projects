@@ -9,7 +9,6 @@ public class HelpTemperatureDRY
 {
   static double celsius;
   static double fahrenheit;
-
   static double Fahrenheit;
   static double Celsius;
 
@@ -64,7 +63,6 @@ public class HelpTemperatureDRY
       ch = true;
       System.out.println("You exited(!).");
     }
-
   }
  }
 } // End of class
