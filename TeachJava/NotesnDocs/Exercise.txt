@@ -1,0 +1,69 @@
+Apr 25,2020
+Q5. Conditional Statements
+Write a program w/h asks a user to enter
+credit score & display in w/h score range s/he's
+Due on May 02, 2020
+FICO Score Ranges:
+300-579	Very Poor
+580-669	Fair, 670-735 Good,
+740-799	Very Good,
+800-850	Exceptional
+=> Hint
+score < 500
+Score < 670
+Score < 740
+Score < 800
+score > 800
+
+
+# Apr 17, 2020
+# Getting Started with Conditional Statements and Arithmetic Operations
+Q.3 Write a program which asks a user to enter four test Scores
+and calculate the Average of the scores.
+# Detail will be explained durning class session
+
+Questions must be raised:-
+  how do we get started?
+  what do we need? hint use your pervious kwdg
+  create class, naming conventions,
+  variable(how many of them do we need)?
+  What else...?
+
+ME:
+Ask students()
+    Class name: AverageScores,..
+    v = 6, prompt, declaring v,
+    how do we calculate the Average
+     concatenation
+
+
+
+
+Q.4 Modify Exr3 & implement Conditional Statements
+
+
+
+========================================================
+Basics of Terminal
+
+Q1.
+By opening your terminal/powershell navigate to Downloads folder and create a folder named Exr1.
+Then inside the Exr1 folder create a file named exr1.txt and write the following sentences.
+
+Windows Users: use notepad to create the text file
+
+=> Hello I created my text file from the terminal.
+=> Thank you.
+=> I am ready for what's next.
+
+Getting Started with Java
+
+Q2.
+Create a java class file  named Exr1 using IntelliJ IDEA and Write a program which Displays the ff information:
+
+a)
+      Hello I created my text file from the terminal.
+      Thank you.
+      I am ready for what's next.
+
+b) prompt the user to Enter his nick name if they does and their favorite color

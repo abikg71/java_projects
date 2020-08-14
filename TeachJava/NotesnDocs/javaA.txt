@@ -1,0 +1,90 @@
+# Abinet Kenore
+March 22, 2020
+
+March 28, 2020
+In this part of the course we will cover the following:
+
+What Java n why do we care about it?
+
+Data types in Java
+
+  Integers        Booleans          Strings
+  Double          float             More
+Operators in Java +, - /, *, %,
+                  &&, ||, ==, !=,
+How do we use constants in Java
+    pi = 3. 141.., e = 2.78 .., gravity = 9.8 , and more
+
+How do we perform arithmetic operations
+  Example: 10.5 + 2 *3 / 45-3
+
+Conditional statements
+  if
+  if else
+  else
+  Switch statements
+        case
+        break
+        default
+        break and contiue
+
+Loops
+    for loop, while loop, do while
+
+Methods creating reusable code
+    Defining method
+        modifier retrunType method name (list of parameters){// Body}
+    Calling method
+
+Math Class
+String Class
+Character Class
+file Class
+OOP
+
+
+03/24/20
+
+Logic
+    As we all know the doctors are required to measure the body temp of person
+    to get started to know whether a person is infected with COVID-19 or not.
+    So they need to know a person's name, and age, his temp.
+
+As Programmer you are asked to write a program which helps doctors in gathering a
+ patient info and come up with some sort of user name for a patient and more on next class
+
+Approach
+BAsicsformuleG4'
+Create a new project and name it  'Java'
+
+Create a file named DataTypes and write a program which asks user to Enter his
+
+a), full name (first ,last name)
+b, date of birth it doesn't has to be the actual DOB.
+c). favorite color.
+d). Add at least two numbers at the end of the user name and use Random Math function
+ to generate the numbers
+
+
+Display out the user Entered information on the console/screen,
+some thing like the ff:
+  Your user name is abinetn49
+  Your age is 26
+  your body tem in degree  Celsius is: ??
+  your body tem in degree Fahrenheit is: ??
+
+  You need to see a doctor because.... is ?? in C
+
+
+# Takeaway
+ Data types,
+ prompting the users to enter the input using kb.
+ More will be explained during the class session.
+
+https://www.geeksforgeeks.org/data-types-in-java/
+ DataTypes
+ Int
+ Double
+
+ String: Strings are defined as an array of characters. The difference between a character array and a string is the string is terminated with a special character ‘\0’.
+Below is the basic syntax for declaring a string in Java programming language.

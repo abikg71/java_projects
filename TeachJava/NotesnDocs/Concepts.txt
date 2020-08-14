@@ -1,0 +1,98 @@
+public class HelloWorld{
+public static void main(String[] args){}
+}
+
+/*
+Line1 Defines a class. Every Java program must have at least one class
+Each class has a name.
+By Convention, class names starts with an uppercase letter.
+In our case the class Name is HelloWorld.
+
+line2 Defines the main method.
+In order to run a class, the class must cointain a method named main.
+The program is executed from the main method.
+
+Every statement in java ends with a semicolon(;).
+Known as a the statement Terminator.
+
+Reserved words, keywords have a specific meaning to the complier AND Can not be used for other purpose in the program
+
+public, static, void,
+
+COMMENT
+// in line comment
+/**/ a block comment
+When a complier sees a any of those (// or /**/) it ignores all texts between /**/ or // line
+
+BRACES
+Each block pf program begins with an opeing brace ({ ) and ends with closing brace (}).
+
+          IMPORT
+          import java.util.Scanner;
+          import java.util.*;
+
+There are two types of import statement.
+specific impprt and wild card import.
+
+The specific import specifies a single class in the import statement.
+Example import java.util.Scanner;
+
+The wild card import imports all the classes in the package.
+Example  import java.util.*;
+  The wildcard can import more than one class/library/package
+  In util.*
+          Scanner     Calender  Date  Timezone
+           Currency   Random  Vector      Array .....etc
+   mport java.util.Random;
+
+Built-in Packages
+These packages consist of a large number of classes which are a part of Java API.Some of the commonly used built-in packages are:
+1) java.lang: Contains language support classes(e.g classed which defines primitive data types, math operations). This package is automatically imported.
+2)  java.io: Contains classed for supporting input / output operations.
+3)  java.util: Contains utility classes which implement data structures like Linked List, Dictionary and support ; for Date / Time operations.
+4)  java.applet: Contains classes for creating Applets.
+5)  java.awt: Contain classes for implementing the components for graphical user interfaces (like button , ;menus etc).
+6)  java.net: Contain classes for supporting networking operations.
+
+System.in Vs System.out
+
+In java we use System.in to standard input device [Keyboard]
+
+You can use SCANNER class to CREATE an object to read input from System.in as follow
+
+Scanner input = new Scanner(System.in);
+
+System.out to refer to the standard output device. [monitor]/Console
+
+To perform console output we use println method to dispay a message
+
+
+
+              Variable
+Variabledesignates a location in a memory for storing data.
+
+Every Variable has a name, a type, a size, and a value.
+Example double taxRate = 8.345;
+
+Using descriptive names for Variables
+
+
+Concatenating Strings
+Concatenating strings with number (?)
+
+      print vs println
+
+print and println are identical in functionality
+The only difference is Println moves the cursor to the next line after displaying the string,
+
+*/
+
+/*
+                  LOOPS
+Suppose you want to print Hello, Welcome 100 times.
+How do you do it??
+For Loop
+while Loop
+do while loop
+Break and Continue
+*/

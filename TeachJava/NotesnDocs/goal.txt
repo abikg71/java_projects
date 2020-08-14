@@ -1,0 +1,11 @@
+After several weeks the goal
+
+1. Your user name is abinetn49
+  Your age is 26
+  your body tem in degree celicius is: 37
+  your body tem in degree far is:98
+  You need to see a doctor because.... is 45 in C
+
+
+
+

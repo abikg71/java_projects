@@ -1,0 +1,52 @@
+z# 03/08/20
+# MIG
+# Objective of today's meeting is:
+1. What is Terminal/Command Line(CDL)?
+      Why we need it
+      In order to learn and explain Terminal/CDL
+      => Search for terminal on mac/ cmd on Windows
+
+      To create a folder on the Desktop from terminal/command line
+      type cd Desktop ~ Now you are on Desktop folder.
+       -> mkdir BasicsofTerminal this creates folder called BasicsofTerminal
+
+  -> Now cd BasicsofTerminal  and now you're on Desktop/basicsofTerminal folder
+          -> vim basicsofTerminal.txt == creates a file named "basicsofTerminal.txt"
+          click i for  insert/write for our context.
+          Type the following
+              # Well come to Grace consulting and Integration services.
+              # We are so happy to have you in the course, so let us do it
+
+        ONCE you are done click esc : wq which saves and exits you from writing
+        Now close your terminal n open it back
+        cd Desktop; ls;cd basicsofTerminal; ,ls; Now you can see the file you create exists /Users/abiken/Desktop/basicsofTerminal.
+
+TERMINAL SHORT CUTS
+cd ~ takes you to home directory
+cd ..
+
+ cd  means change directory
+
+ vim means creates and opens file to write on
+
+# Display the present working directory
+pwd
+
+ls means list
+# Create a directory
+mkdir directory
+
+# Remove (delete) file
+rm file
+
+# Remove the directory and its contents recursively
+rm -r directory
+
+# Force removal of file without prompting for confirmation
+rm -f file
+
+# Forcefully remove directory recursively
+rm -rf directory
+
+# Copy file1 to file2
+cp file1 file2

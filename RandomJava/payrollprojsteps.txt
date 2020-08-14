@@ -1,0 +1,28 @@
+Create new java Class
+Name it Payroll.java
+Main method
+
+Read the file from the data.txt (How?)
+Check what is inside
+Read each word (data type?)
+Which loop shoud I use?
+close  the input file
+
+Globalize the data type (How & Why)
+Calculate gross, net, federal, state, and other taxes
+
+Create methods for each calculation
+grossPay
+netPay
+federalTax
+stateTax
+otherfees
+totalfees
+
+Display the output
+string format
+
+Do not forget to:
+other way to calculate the total fees
+how I named the variables and methods
+two ways  of naming variables
